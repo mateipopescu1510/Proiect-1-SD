@@ -1,0 +1,224 @@
+
+
+Random vector:
+n   = 10000
+max = 10000
+
+RADIX (base 10): 0.0107799s; Correctly sorted
+RADIX (base 16): 0.010258s; Correctly sorted
+RADIX (base 256): 0.009118s; Correctly sorted
+RADIX (base 4096): 0.0293093s; Correctly sorted
+RADIX (base 65536): 0.256611s; Correctly sorted
+STD SORT: 0.0051844s; Correctly sorted
+MERGE: 0.0070829s; Correctly sorted
+COUNT: 0.001272s; Correctly sorted
+SHELL: 0.0056351s; Correctly sorted
+COMB: 0.0079359s; Correctly sorted
+
+
+Random vector:
+n   = 1000000
+max = 10000
+
+RADIX (base 10): 1.2307s; Correctly sorted
+RADIX (base 16): 0.970058s; Correctly sorted
+RADIX (base 256): 0.487884s; Correctly sorted
+RADIX (base 4096): 0.546383s; Correctly sorted
+RADIX (base 65536): 0.587727s; Correctly sorted
+STD SORT: 0.47772s; Correctly sorted
+MERGE: 0.811403s; Correctly sorted
+COUNT: 0.10977s; Correctly sorted
+SHELL: 2.37221s; Correctly sorted
+COMB: 0.997634s; Correctly sorted
+
+
+Random vector:
+n   = 10000000
+max = 10000
+
+RADIX (base 10): 11.597s; Correctly sorted
+RADIX (base 16): 9.31218s; Correctly sorted
+RADIX (base 256): 4.79237s; Correctly sorted
+RADIX (base 4096): 4.97903s; Correctly sorted
+RADIX (base 65536): 2.99812s; Correctly sorted
+STD SORT: 5.11242s; Correctly sorted
+MERGE: 8.67895s; Correctly sorted
+COUNT: 1.16428s; Correctly sorted
+SHELL: 133.125s; Correctly sorted
+COMB: 11.6309s; Correctly sorted
+
+
+Random vector:
+n   = 100000000
+max = 10000
+
+RADIX (base 10): 116.991s; Correctly sorted
+RADIX (base 16): 93.6447s; Correctly sorted
+RADIX (base 256): 48.0343s; Correctly sorted
+RADIX (base 4096): 50.12s; Correctly sorted
+RADIX (base 65536): 28.8727s; Correctly sorted
+STD SORT: 48.4505s; Correctly sorted
+Merge sort doesn't work for vectors with more than 20 million elements
+COUNT: 11.0015s; Correctly sorted
+Shell sort doesn't work for vectors with more than 20 million elements
+COMB: 136.861s; Correctly sorted
+
+
+Random vector:
+n   = 10000
+max = 1000000
+
+RADIX (base 10): 0.0144427s; Correctly sorted
+RADIX (base 16): 0.012308s; Correctly sorted
+RADIX (base 256): 0.0100943s; Correctly sorted
+RADIX (base 4096): 0.0265728s; Correctly sorted
+RADIX (base 65536): 0.241693s; Correctly sorted
+STD SORT: 0.0048239s; Correctly sorted
+MERGE: 0.0064821s; Correctly sorted
+COUNT: 0.0062108s; Correctly sorted
+SHELL: 0.0053301s; Correctly sorted
+COMB: 0.0072265s; Correctly sorted
+
+
+Random vector:
+n   = 1000000
+max = 1000000
+
+RADIX (base 10): 1.38633s; Correctly sorted
+RADIX (base 16): 1.16381s; Correctly sorted
+RADIX (base 256): 0.712759s; Correctly sorted
+RADIX (base 4096): 0.544706s; Correctly sorted
+RADIX (base 65536): 1.19185s; Correctly sorted
+STD SORT: 0.761699s; Correctly sorted
+MERGE: 0.819885s; Correctly sorted
+COUNT: 0.13093s; Correctly sorted
+SHELL: 1.27677s; Correctly sorted
+COMB: 1.12823s; Correctly sorted
+
+
+Random vector:
+n   = 10000000
+max = 1000000
+
+RADIX (base 10): 16.1839s; Correctly sorted
+RADIX (base 16): 11.6416s; Correctly sorted
+RADIX (base 256): 7.08957s; Correctly sorted
+RADIX (base 4096): 5.01769s; Correctly sorted
+RADIX (base 65536): 6.61112s; Correctly sorted
+STD SORT: 7.71557s; Correctly sorted
+MERGE: 9.00521s; Correctly sorted
+COUNT: 1.44237s; Correctly sorted
+SHELL: 21.8664s; Correctly sorted
+COMB: 13.8063s; Correctly sorted
+
+
+Random vector:
+n   = 100000000
+max = 1000000
+
+RADIX (base 10): 162.115s; Correctly sorted
+RADIX (base 16): 115.741s; Correctly sorted
+RADIX (base 256): 70.9141s; Correctly sorted
+RADIX (base 4096): 50.7327s; Correctly sorted
+RADIX (base 65536): 58.3605s; Correctly sorted
+STD SORT: 76.3865s; Correctly sorted
+Merge sort doesn't work for vectors with more than 20 million elements
+COUNT: 11.4608s; Correctly sorted
+Shell sort doesn't work for vectors with more than 20 million elements
+COMB: 154.845s; Correctly sorted
+
+
+Random vector:
+n   = 10000
+max = 100000000
+
+RADIX (base 10): 0.0198866s; Correctly sorted
+RADIX (base 16): 0.0172435s; Correctly sorted
+RADIX (base 256): 0.0130723s; Correctly sorted
+RADIX (base 4096): 0.0318726s; Correctly sorted
+RADIX (base 65536): 0.245213s; Correctly sorted
+STD SORT: 0.0048752s; Correctly sorted
+MERGE: 0.0062682s; Correctly sorted
+COUNT: 0.49864s; Correctly sorted
+SHELL: 0.0052577s; Correctly sorted
+COMB: 0.0073388s; Correctly sorted
+
+
+Random vector:
+n   = 1000000
+max = 100000000
+
+RADIX (base 10): 1.86149s; Correctly sorted
+RADIX (base 16): 1.61898s; Correctly sorted
+RADIX (base 256): 0.941182s; Correctly sorted
+RADIX (base 4096): 0.781843s; Correctly sorted
+RADIX (base 65536): 1.20216s; Correctly sorted
+STD SORT: 0.739047s; Correctly sorted
+MERGE: 0.812657s; Correctly sorted
+COUNT: 0.649958s; Correctly sorted
+SHELL: 1.30262s; Correctly sorted
+COMB: 1.18121s; Correctly sorted
+
+
+Random vector:
+n   = 10000000
+max = 100000000
+
+RADIX (base 10): 20.7986s; Correctly sorted
+RADIX (base 16): 16.2417s; Correctly sorted
+RADIX (base 256): 9.42325s; Correctly sorted
+RADIX (base 4096): 7.46612s; Correctly sorted
+RADIX (base 65536): 6.75773s; Correctly sorted
+STD SORT: 8.52298s; Correctly sorted
+MERGE: 9.86471s; Correctly sorted
+COUNT: 2.86534s; Correctly sorted
+SHELL: 21.3523s; Correctly sorted
+COMB: 14.3463s; Correctly sorted
+
+
+Random vector:
+n   = 100000000
+max = 100000000
+
+RADIX (base 10): 184.873s; Correctly sorted
+RADIX (base 16): 161.78s; Correctly sorted
+RADIX (base 256): 93.9275s; Correctly sorted
+RADIX (base 4096): 75.1023s; Correctly sorted
+RADIX (base 65536): 59.7379s; Correctly sorted
+STD SORT: 101.403s; Correctly sorted
+Merge sort doesn't work for vectors with more than 20 million elements
+COUNT: 16.7293s; Correctly sorted
+Shell sort doesn't work for vectors with more than 20 million elements
+COMB: 171.397s; Correctly sorted
+
+
+Sorted vector(ascending):
+n   = 10000000
+max = 10000000
+
+RADIX (base 10): 19.8426s; Correctly sorted
+RADIX (base 16): 16.9497s; Correctly sorted
+RADIX (base 256): 8.62366s; Correctly sorted
+RADIX (base 4096): 5.97585s; Correctly sorted
+RADIX (base 65536): 6.99118s; Correctly sorted
+STD SORT: 3.41619s; Correctly sorted
+MERGE: 7.2051s; Correctly sorted
+COUNT: 1.44946s; Correctly sorted
+SHELL: 3.18961s; Correctly sorted
+COMB: 8.4204s; Correctly sorted
+
+
+Sorted vector(descending):
+n   = 10000000
+max = 10000000
+
+RADIX (base 10): 19.7467s; Correctly sorted
+RADIX (base 16): 16.8823s; Correctly sorted
+RADIX (base 256): 8.48734s; Correctly sorted
+RADIX (base 4096): 5.94999s; Correctly sorted
+RADIX (base 65536): 6.89854s; Correctly sorted
+STD SORT: 4.04346s; Correctly sorted
+MERGE: 10.1272s; Correctly sorted
+COUNT: 1.41452s; Correctly sorted
+SHELL: 4.60432s; Correctly sorted
+COMB: 10.1886s; Correctly sorted
